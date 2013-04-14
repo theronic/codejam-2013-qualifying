@@ -17,6 +17,11 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+.idea
+
+#input/output
+*.in
+*.out
 
 # Installer logs
 pip-log.txt
