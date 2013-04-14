@@ -1,16 +1,12 @@
 ROWS = 4
 COLUMNS = 4
-T = -100
+T = -100 # BLOCKED
 
 X = 1
 O = -1
 
 def dump(board):
     print("\n".join(" ".join(map(str, line)) for line in board))
-    print("\n")
-
-def hasWon(acc, player):
-    return acc * player == max(COLUMNS, ROWS)
 
 def testWin(board, player):
     # test horizontal win
